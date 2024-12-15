@@ -59,7 +59,9 @@
     <div id="apMap" style="height: 400px;"></div>
 
     
-    <form action="#" method="post" class="mt-4">
+    <form name="contact" method="POST" data-netlify="true" netlify>
+      <input type="hidden" name="form-name" value="contact">
+      
       <label for="voornaam" class="form-label">Voornaam *</label>
       <input type="text" id="voornaam" name="voornaam" placeholder="Uw voornaam" class="form-control mb-3" required>
       
